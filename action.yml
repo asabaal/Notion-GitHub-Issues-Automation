@@ -1,6 +1,6 @@
 name: Notion GitHub Issues Automation
-author: Sajan Toor
-description: Gets issues from GitHub and puts them in your Notion database.
+author: Asabaal Horan
+description: Gets issues from GitHub and puts them in your Notion database. Based on Sajan Toor
 branding:
   color: gray-dark
   icon: check-circle
@@ -20,5 +20,5 @@ inputs:
     required: false
 
 runs:
-  using: node12
+  using: node16
   main: build/index.js
